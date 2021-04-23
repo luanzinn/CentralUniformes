@@ -1,0 +1,254 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+header {
+  display: block;
+  color: rgba(19, 19, 226,);
+  text-shadow: 2px 2px white ;
+  position: fixed;
+  border-radius: 8px;
+  border: 1px black;
+  width: 100%;
+  height: 55px;
+  top:0;
+  left: 0;
+  font-size: 40px;
+  font-weight: bold;
+  background: #eec500;
+
+}
+
+#area
+{
+  background-image: linear-gradient(to bottom, #eec500, #f2b200, #f49e00, #f58a00, #f47500);
+  position:relative;
+  left:37%;
+  top:10em;
+  width:640px;
+  height:800px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+
+
+
+h3{
+  font-size: 25px;
+  border-radius: 8px;
+  border-bottom: 1px;
+  background-color: rgba(64, 132, 235, 0.829) ;
+  color: white;
+  margin-bottom: 25px;
+
+}
+
+form {
+  background-image: linear-gradient(to bottom, #eec500, #f2b200, #f49e00, #f58a00, #f47500);;
+  border: none;
+  border-radius: 4px;
+  left:50%;
+  top:50%;
+  margin:-100px 0 0 -150px;
+  margin-top: 100px;
+}
+
+fieldset
+{
+  background-image: linear-gradient(to bottom, #eec500, #f2b200, #f49e00, #f58a00, #f47500);;
+  border: none;
+  border-radius: 4px;
+  left:50%;
+  top:50%;
+  margin:-100px 0 0 -150px;
+
+}
+legend
+{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";  
+  font-size: x-large;
+  background-color: orange;
+  border-radius: 8px;
+  border-bottom: 1px;
+}
+
+.teste {
+  float: left;
+}
+
+input {
+  display: block;
+  margin: 12px;
+  background: #fff;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid silver;
+}
+
+input:focus{
+box-shadow: 0,0,0,0.1;
+outline: 0;
+}
+
+
+input[type="text"] {
+  display: inline;
+  margin: 9px;
+  font-size: 18px;
+}
+
+input[type="number"] {
+font-size: 16px;
+width: 55px;
+margin: 12px;
+display: inline;
+}
+
+select {
+  font-size: 18px;
+  border:none;
+  border-bottom: 2px solid silver;
+  outline: none;
+  display: inline;
+  margin: 15px;
+}
+/*
+select#manga {
+  display: inline;
+}
+
+select#mangacor {
+  display: inline;
+}
+
+select#golacor {
+  display: inline;
+}
+
+select#golacab {
+  display: inline;
+}
+
+select#prioridade {
+  display: inline;
+  width: 150px;
+  font-size: 18px;
+  border:none;
+  border-bottom: 2px solid silver;
+  background: blue;
+}
+*/
+
+.Post {
+background-image: linear-gradient(to bottom, #eec500, #f2b200, #f49e00, #f58a00, #f47500);;
+}
+
+label {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#img {
+  width: 320;
+  height: 205;
+  width: auto;
+  height: auto;
+}
+
+button {
+  border-radius: 5px;
+  border: outset;
+  margin: 15px;
+}
+
+
+#hum {
+  text-align: center;
+  font-size: 40px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#hdois {
+  font-size: 20px;
+  margin-top: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+#htres {
+  margin-left: 40px;
+  display: inline-block;
+  height: 25px;
+  border: 1.9px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+table.bytable {
+margin-top: 10px;
+margin-bottom: 25px;
+margin-left: 60px;
+background-color: #ffffff;
+border-collapse: collapse;
+border-width: 2px;
+border-color: #005DEE;
+border-style: solid;
+color: #000000;
+}
+
+table.bytable td, table.bytable th {
+border-width: 2px;
+border-color: #005DEE;
+border-style: solid;
+padding: 3px;
+}
+
+table.bytable thead {
+background-color: #005DEE;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
